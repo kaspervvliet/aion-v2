@@ -1,0 +1,10 @@
+aiohttp
+asyncio
+python-dotenv
+matplotlib
+numpy
+openai
+pandas
+plotly
+requests
+streamlit

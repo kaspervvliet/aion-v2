@@ -1,0 +1,23 @@
+
+[project]
+name = "tradetool"
+version = "0.1.0"
+description = "Self-learning AI trading tool"
+authors = [{ name = "Mariëlle", email = "example@example.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "python-dotenv",
+    "openai",
+    "requests",
+    "aiohttp",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["tradetool"]
