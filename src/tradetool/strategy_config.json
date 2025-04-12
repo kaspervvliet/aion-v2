@@ -1,0 +1,15 @@
+
+{
+  "strategy_name": "ModularConfluenceStrategy",
+  "symbol": "SOL/USD",
+  "interval": "15m",
+  "confluences": [
+    { "type": "SweepDetector" },
+    { "type": "FVGDetector" },
+    { "type": "RSIDetector", "params": { "threshold": 30 } }
+  ],
+  "settings": {
+    "rr_target": 2.0,
+    "confidence_threshold": 0.7
+  }
+}
